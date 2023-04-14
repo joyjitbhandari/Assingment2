@@ -12,7 +12,7 @@ class FormTwoActivity : AppCompatActivity() {
         binding = ActivityForm2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val intent = getIntent()
+        val intent = intent
 
         val name = intent.getStringExtra("name")
         val mobile = intent.getStringExtra("mobile")
