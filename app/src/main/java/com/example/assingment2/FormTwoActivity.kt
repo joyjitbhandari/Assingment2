@@ -8,16 +8,17 @@ class FormTwoActivity : AppCompatActivity() {
     lateinit var binding: ActivityForm2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form2)
         binding = ActivityForm2Binding.inflate(layoutInflater)
-
-        val name = intent.getStringExtra("name").toString()
-        val mobile = intent.getStringExtra("mobile").toString()
-        val date = intent.getStringExtra("date").toString()
+        setContentView(binding.root)
 
 
-        binding.textitem1.text = name
-        binding.textitem2.text = mobile
-        binding.textitem3.text = date
+//        val name = intent.getStringExtra("name").toString()
+//        val mobile = intent.getStringExtra("mobile").toString()
+//        val date = intent.getStringExtra("date").toString()
+//
+//
+//        binding.textitem1.text = name
+//        binding.textitem2.text = mobile
+//        binding.textitem3.text = date
     }
 }

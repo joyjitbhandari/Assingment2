@@ -23,11 +23,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val cities = resources.getStringArray(R.array.cities)
         val arrayAdapter = ArrayAdapter(this, R.layout.drop_down_item_list, cities)
         binding.atLocation.setAdapter(arrayAdapter)
-
-        binding.saveBtn.setOnClickListener(this)
-        binding.nextBtn.setOnClickListener(this)
-
-
     }
 
     override fun onClick(view: View?) {
@@ -62,13 +57,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     Toast.makeText(this, "Enter All the above credentials", Toast.LENGTH_SHORT)
                         .show()
                 }
+
             }
 
             binding.nextBtn -> {
                     val intent = Intent(this, FormTwoActivity::class.java)
-                    intent.putExtra("name",binding.etName.text.toString())
-                    intent.putExtra("mobile",binding.etMobile.text.toString())
-                    intent.putExtra("date",binding.etDate.text.toString())
+//                    intent.putExtra("name",binding.etName.text.toString())
+//                    intent.putExtra("mobile",binding.etMobile.text.toString())
+//                    intent.putExtra("date",binding.etDate.text.toString())
                     startActivity(intent)
             }
         }
