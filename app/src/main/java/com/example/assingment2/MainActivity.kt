@@ -62,9 +62,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             binding.nextBtn -> {
                     val intent = Intent(this, FormTwoActivity::class.java)
-//                    intent.putExtra("name",binding.etName.text.toString())
-//                    intent.putExtra("mobile",binding.etMobile.text.toString())
-//                    intent.putExtra("date",binding.etDate.text.toString())
+                    intent.putExtra("name",binding.etName.text.toString())
+                    intent.putExtra("mobile",binding.etMobile.text.toString())
+                    intent.putExtra("date",binding.etDate.text.toString())
                     startActivity(intent)
             }
         }
