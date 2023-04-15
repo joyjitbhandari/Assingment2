@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.assingment2.databinding.ActivityForm2Binding
 
-
 class FormTwoActivity : AppCompatActivity() {
     lateinit var binding: ActivityForm2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
