@@ -285,7 +285,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Exit From app "
+        android:text="Exit From App "
         android:textColor="@color/black"
         android:textSize="20sp" />
     <!--Buttons-->

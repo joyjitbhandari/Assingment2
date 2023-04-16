@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FormApplication</string>
-    <string name="details_of_inspected_terms">Details of Inspected Terms:</string>
-    <string name="details_of_inspected_filded">Details of Inspected Filled:</string>
+    <string name="details_of_inspected_terms">Details of Inspected Items:</string>
+    <string name="details_of_inspected_filded">Details of Inspected Filed:</string>
     <string name="save">Save</string>
     <string name="next">Next</string>
     <string name="full_name">Full Name</string>
